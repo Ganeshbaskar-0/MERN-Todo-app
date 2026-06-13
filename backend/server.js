@@ -20,5 +20,5 @@ app.use("/todos",userRoutes)
 
 const PORT = process.env.PORT || 3000
 app.listen(PORT,()=>{
-    console.log("Server started")
+    console.log(`Server started at ${PORT}`)
 })
